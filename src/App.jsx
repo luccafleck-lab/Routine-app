@@ -152,8 +152,7 @@ function EventCard({ev,onDelete,expanded,onExpand}){
       )}
     </div>
   );
-}
-Cola a terceira parte:
+
 
 function PlanModal({events,tasks,onClose,onApply}){
   const[step,setStep]=useState("form");
